@@ -1,4 +1,3 @@
-```yaml
 name: Terraform Apply
 
 on:
@@ -49,4 +48,5 @@ jobs:
         working-directory: ./terraform
         if: github.ref == 'refs/heads/main'
         run: terraform apply -auto-approve tfplan
-```
+
+---

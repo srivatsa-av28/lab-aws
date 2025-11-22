@@ -1,9 +1,7 @@
-```yaml
 name: Instance Cleanup
 
 on:
   schedule:
-    # Run every 6 hours
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
@@ -38,4 +36,3 @@ jobs:
       - name: Run cleanup script
         run: |
           python scripts/shutdown_old_instances.py
-```
