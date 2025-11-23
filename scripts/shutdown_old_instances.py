@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/env python3
 """
 Script to shut down AWS EC2 instances older than 24 hours.
@@ -92,4 +91,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-```
